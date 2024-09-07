@@ -1,0 +1,252 @@
+/**
+ * @Author: Your name
+ * @Date:   2024-07-19 00:15:18
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2024-07-30 16:38:25
+ */
+
+ 
+ * {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'Tangerine', serif;
+}
+
+ #content {
+  margin: 0px;
+  padding: 5px;
+  color: #cee2cc;
+  background:black;
+ }
+ 
+.header {
+  position:fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding:20px 15px;
+  background: transparent;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index :100;
+}
+  
+.logo {
+  font-size: 35px;
+  color:aliceblue;
+  text-decoration:none;
+  font-weight:300;
+  pointer-events: none;
+};
+
+
+.header .nav-bar a {
+  font-size: 500px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+
+.nav-bar a.homeBtn, .navbar a:hover {
+  background:rgb(34, 133, 10);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav-bar a:nth-child(2) {
+  background:rgb(255, 255, 255);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav-bar a:nth-child(3) {
+  background:rgb(255, 255, 255);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.nav-bar a:nth-child(4) {
+  background:rgb(255, 255, 255);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 5% 0px;
+  justify-content: space-between;
+}
+
+.home-content {
+  max-width: 500px;
+}
+
+.home-content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.home-content h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.home-content p {
+  font-size: 25px;
+  margin: 20px 0 40px;
+}
+
+
+.home-sci a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height: 40px;
+  background: linear-gradient(45deg, rgb(17, 19, 0), rgb(8, 1, 56));
+  border-radius: 50%;
+  font-size: 20px;
+  color:rgb(23, 104, 2);
+  text-decoration:none;
+  margin: 20px 0; 
+  z-index: 1;
+}
+
+.home-img {
+  width: 350px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.home-img .glowing-circle {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(17, 19, 0), rgb(8, 1, 56));
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img .glowing-circle::after {
+  content: '';
+  position: absolute;
+  width: 335px;
+  height: 285px;
+  background: black;
+  border-radius: 50%;
+
+}
+
+.glowing-circle .profile-pic {
+  position: relative;
+  width: 320px;
+  height: 270px;
+  border-radius: 50%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.profile-pic img{
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 350px;
+  object-fit: cover;
+}
+
+.skills .icons-container {
+  position: relative;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10%;
+}
+
+.skills .icons-container img {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.skills h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+
+.projects {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding:15px 15px 15px 15px;
+}
+
+.projects-heading {
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  display: flex;
+  margin: 50px;
+  padding: 5%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.projects-container .clock-project img{
+  width:290px;
+  height: 25vh;
+  -webkit-transform: scale(0.999);
+  transform: scale(0.999);
+  object-fit: cover;
+}
+
+.projects-container .clock-project h3 {
+  background: transparent;
+  color:white;
+  align-items:center;
+}
+
+
+
+.projects-container .clock-project {
+  justify-content:center;
+  align-items:center;
+}
+
+.projects-container .to-do-list-project img {
+  width: 280px;
+  height: 25vh;
+  object-fit: cover;
+}
+
+#contact-information {
+  display: flex;
+  justify-content: center;
+  color:white;
+}
+
+#contact-information #contact-details header {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
