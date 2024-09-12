@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2024-09-09 00:06:49
  * @Last Modified by:   Your name
- * @Last Modified time: 2024-09-12 19:51:06
+ * @Last Modified time: 2024-09-12 20:16:42
  */
 
  /*Three main colors to use for styling: Blue, green, and orange. */
@@ -11,9 +11,9 @@ body {
   margin: 0;
   padding: 0;
   
-  background-image: url(background.jpg);
+  background-image: url(background1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: absolute;
 }
 
@@ -32,11 +32,17 @@ header {
 #home h1 {
   font-size: 38px;
   align-self:flex-start;
+  padding-left: 25px;
+  color: white;
 }
 
 #about {
   text-align: center;
   color: white;
+}
+
+#about h2 {
+  
 }
 
 /*.btn {
