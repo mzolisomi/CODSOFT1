@@ -1,0 +1,30 @@
+/**
+ * @Author: Your name
+ * @Date:   2024-09-09 00:06:49
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2024-09-09 00:07:32
+ */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 0;
+}
+
+.btn {
+  background-color: white;
+  color: #4CAF50;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 20px;
+}
