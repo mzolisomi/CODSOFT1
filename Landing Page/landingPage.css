@@ -1,0 +1,56 @@
+/**
+ * @Author: Your name
+ * @Date:   2024-09-09 00:06:49
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2024-09-12 20:24:33
+ */
+
+ /*Three main colors to use for styling: Blue, green, and orange. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background-image: url(background1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: absolute;
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+  color: rgb(122, 124, 26);
+  font-weight: 800px;
+  padding: 0px 10px 0px;
+}
+
+.nav-bar {
+  margin-top: 30px;
+  padding: 0px 10px 0px;
+}
+
+#home h1 {
+  font-size: 38px;
+  align-self:flex-start;
+  padding-left: 25px;
+  color: white;
+}
+
+#about {
+  text-align: center;
+  color: white;
+}
+
+#about h2 {
+  font-size: 25px;
+}
+
+/*.btn {
+  background-color: white;
+  color: #4CAF50;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}*/
+
